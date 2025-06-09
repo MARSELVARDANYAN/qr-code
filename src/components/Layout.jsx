@@ -13,11 +13,11 @@ export const Layout = () => {
             // <QrCodeScaner /> */}
       <div style={{display: "flex", justifyContent: "center"}}>
         <Routes>
-          <Route path="/" element={<QrCodeGenerator />} />
-          <Route path="/generate" element={<QrCodeGenerator />} />
-          <Route path="/scanner" element={<QrCodeScanner />} />
-          <Route path="/history-generator" element={<GenerateHistory />} />
-          <Route path="/history-scanner" element={<ScanHistory />} />
+          <Route path="qr-code/" element={<QrCodeGenerator />} />
+          <Route path="qr-code/generate" element={<QrCodeGenerator />} />
+          <Route path="qr-code/scanner" element={<QrCodeScanner />} />
+          <Route path="qr-code/history-generator" element={<GenerateHistory />} />
+          <Route path="qr-code/history-scanner" element={<ScanHistory />} />
         </Routes>
       </div>
     </>
