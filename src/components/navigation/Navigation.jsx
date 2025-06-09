@@ -5,19 +5,19 @@ export const Navigation = () => {
   return (
     <nav className={style.nav}>
       <div>
-        <NavLink to="/" className={({ isActive }) => isActive ? style.active : ""}>Home</NavLink>
+        <NavLink to="/qr-code/" className={({ isActive }) => isActive ? style.active : ""}>Home</NavLink>
       </div>
       <div>
-        <NavLink to="/generate" className={({ isActive }) => isActive ? style.active : ""}>Generation Qr Code</NavLink>
+        <NavLink to="/qr-code/generate" className={({ isActive }) => isActive ? style.active : ""}>Generation Qr Code</NavLink>
       </div>
       <div>
-        <NavLink to="/scanner" className={({ isActive }) => isActive ? style.active : ""}>Scanner Qr Code</NavLink>
+        <NavLink to="/qr-code/scanner" className={({ isActive }) => isActive ? style.active : ""}>Scanner Qr Code</NavLink>
       </div>
       <div>
-        <NavLink to="/history-generator" className={({ isActive }) => isActive ? style.active : ""}>History Generator</NavLink>
+        <NavLink to="/qr-code/history-generator" className={({ isActive }) => isActive ? style.active : ""}>History Generator</NavLink>
       </div>
       <div>
-        <NavLink to="/history-scanner" className={({ isActive }) => isActive ? style.active : ""}>History Scanner</NavLink>
+        <NavLink to="/qr-code/history-scanner" className={({ isActive }) => isActive ? style.active : ""}>History Scanner</NavLink>
       </div>
     </nav>
   );

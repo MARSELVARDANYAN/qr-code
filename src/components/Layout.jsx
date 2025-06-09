@@ -9,8 +9,7 @@ export const Layout = () => {
   return (
     <>
       <Navigation />
-      {/* // <QrCodeGenerator />
-            // <QrCodeScaner /> */}
+
       <div style={{display: "flex", justifyContent: "center"}}>
         <Routes>
           <Route path="qr-code/" element={<QrCodeGenerator />} />
